@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f3b90a9-1624-433a-a71b-a1a4f864a8f2" name="Changes" comment="Test">
-      <change afterPath="$PROJECT_DIR$/src/it/epicode/be/test/Automobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/epicode/be/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/epicode/be/oop/Automobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/epicode/be/oop/Camper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/epicode/be/oop/GestioneOOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/epicode/be/oop/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/epicode/be/oop/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/epicode/be/oop/Veicolo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/epicode/be/test/Colore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/epicode/be/test/Automobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/epicode/be/test/Automobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/epicode/be/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/epicode/be/test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -34,7 +41,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/emanueleumberto/BackEndFs0824B.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/emanueleumberto/BackEndFs0824BTeoria.git&quot;,
     &quot;accountId&quot;: &quot;b26493b7-07dd-4a94-bc1e-756325e02e79&quot;
   }
 }</component>
@@ -47,15 +54,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/emau7/Desktop/BackEndFs0824B/PrimoProgettoJava/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GestioneOOP.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/emau7/Desktop/BackEndFs0824B/PrimoProgettoJava/src/Main.java"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="GestioneOOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.epicode.be.oop.GestioneOOP" />
+      <module name="PrimoProgettoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.epicode.be.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GestioneOOP" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,7 +101,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736256127870</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test">
+      <option name="closed" value="true" />
+      <created>1736344866160</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736344866160</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Test">
+      <option name="closed" value="true" />
+      <created>1736345079971</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736345079971</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -85,13 +129,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>88</line>
+          <line>107</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>92</line>
+          <line>111</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/it/epicode/be/test/Automobile.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

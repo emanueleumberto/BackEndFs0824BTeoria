@@ -16,6 +16,10 @@ public class Test {
         } else {
             System.out.println("Valore errato");
         }
+
+        Automobile a = new Automobile("abc", "abc");
+        System.out.println(a.ruote);
+        System.out.println(a.marca);
     }
 
     public void stampaSwitch(int num) {
