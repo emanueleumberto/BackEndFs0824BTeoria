@@ -1,6 +1,6 @@
 package it.epicode.be.oop;
 
-public class Veicolo {
+public abstract class Veicolo {
 
     protected String marca;
     protected String modello;
@@ -16,4 +16,13 @@ public class Veicolo {
     public String info() {
        return this.marca + " " + this.modello + " Targa: " + this.targa + " Cilindrata: " + this.cilindrata;
     }
+
+    // Con final rendo un metodo non sovrascrivibile nelle sottoclassi
+    // Impedisco l'override
+    final public void sostituisciTarga(String targa) {
+        // controlli
+        this.targa = targa;
+    }
+
+    public abstract void start() ;
 }

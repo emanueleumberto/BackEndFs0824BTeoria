@@ -13,4 +13,9 @@ public class Moto extends Veicolo{
         //return this.marca + " " + this.modello + " Targa: " + this.targa + " Baule: " + this.baule;
         return super.info() + " Baule: " + this.baule;
     }
+
+    @Override
+    public void start() {
+        // Logica del'implentazione del metodo abstract definito nella superclasse
+    }
 }

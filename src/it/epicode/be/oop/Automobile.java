@@ -1,6 +1,6 @@
 package it.epicode.be.oop;
 
-public class Automobile extends Veicolo {
+public class Automobile extends Veicolo implements Navigatore {
 
     private int porte;
 
@@ -9,9 +9,36 @@ public class Automobile extends Veicolo {
         this.porte = porte;
     }
 
-    public String info() {
+    @Override
+    public void start() {
+        // Logica del'implentazione del metodo abstract definito nella superclasse
+    }
+
+    @Override
+    public void avvia() {
+
+    }
+
+    @Override
+    public void spegni() {
+
+    }
+
+    @Override
+    public void impostaMappa() {
+
+    }
+
+    @Override
+    public void aggiorna() {
+        System.out.println("Aggiorna Navigatore Auto");
+    }
+
+    /*public String info() {
         //return this.marca + " " + this.modello + " Targa: " + this.targa + " Num. Porte: " + this.porte;
         return super.info() + " Num. Porte: " + this.porte;
-    }
+    }*/
+
+
 
 }
