@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f3b90a9-1624-433a-a71b-a1a4f864a8f2" name="Changes" comment="Test">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafaker_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/epicode/be/GestioneErrori/MyCustomException.java" afterDir="false" />
+    <list default="true" id="4f3b90a9-1624-433a-a71b-a1a4f864a8f2" name="Changes" comment="Gestione degli errori">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimoProgettoJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PrimoProgettoJava.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +47,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.GestioneErrori.executor": "Debug",
+    "Application.GestioneErrori.executor": "Run",
     "Application.GestioneOOP.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/emau7/Desktop/BackEndFs0824B/PrimoProgettoJava/lib/slf4j-api-2.0.7.jar",
+    "last_opened_file_path": "C:/Users/emau7/Desktop/ProgettiFS0824B/Java1/Alessandro Coretti/esame-be-1-master",
     "onboarding.tips.debug.path": "C:/Users/emau7/Desktop/BackEndFs0824B/PrimoProgettoJava/src/Main.java",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
@@ -147,12 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1736507810465</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Gestione degli errori">
+      <option name="closed" value="true" />
+      <created>1736773135554</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736773135554</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Gestione degli errori" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gestione degli errori" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
