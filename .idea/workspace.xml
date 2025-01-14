@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f3b90a9-1624-433a-a71b-a1a4f864a8f2" name="Changes" comment="Gestione degli errori">
+      <change afterPath="$PROJECT_DIR$/src/it/epicode/be/Collection/GestioneCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/epicode/be/Collection/Veicolo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GestioneCollection.executor": "Run",
     "Application.GestioneErrori.executor": "Run",
     "Application.GestioneOOP.executor": "Run",
     "Application.Main.executor": "Run",
@@ -61,7 +64,20 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GestioneErrori">
+  <component name="RunManager" selected="Application.GestioneCollection">
+    <configuration name="GestioneCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.epicode.be.Collection.GestioneCollection" />
+      <module name="PrimoProgettoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.epicode.be.Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GestioneErrori" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.epicode.be.GestioneErrori.GestioneErrori" />
       <module name="PrimoProgettoJava" />
@@ -90,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GestioneCollection" />
         <item itemvalue="Application.GestioneErrori" />
         <item itemvalue="Application.GestioneOOP" />
       </list>
@@ -152,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736773135554</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Gestione degli errori">
+      <option name="closed" value="true" />
+      <created>1736788147335</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736788147335</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
