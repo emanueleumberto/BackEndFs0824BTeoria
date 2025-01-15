@@ -18,14 +18,13 @@ public class GestioneCollection {
         listaSet.add(v1);
         listaSet.add(v3);
 
-        for (Veicolo v : listaSet) {
-            System.out.println(v);
-        }
+        for (Veicolo v : listaSet) { System.out.println(v); }
 
         boolean bc = listaSet.contains(v2); // Controlla se un valore è presente nella collection
         boolean br = listaSet.remove(v2); // Rimuove un valore in una collection
         int s = listaSet.size(); // Restituisce il numero di elementi presenti nella collection
         listaSet.clear(); // Svuota completamente una collection
+        //listaSet.forEach((ele) -> System.out.println(ele));
 
         boolean empty = listaSet.isEmpty(); // Restituisce un valore booleano se la lista contiene o meno degli elementi
 
@@ -88,7 +87,9 @@ public class GestioneCollection {
         Set<String> listaChiaviMappa = listaMap.keySet(); // Restituisce un Set di chiavi presenti nella mappa
         for (String key: listaChiaviMappa) {
             System.out.println(key);
+            System.out.println(listaMap.get(key));
         }
+        listaMap.forEach((key, value) -> System.out.println(key + " " + value));
 
         Collection<Veicolo> listaVeicoli = listaMap.values();// Restituisce una Collection di oggetti di tipo veicolo di chiavi presenti nella mappa
         for(Veicolo v : listaVeicoli) {

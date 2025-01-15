@@ -36,5 +36,9 @@ public class GestioneOOP {
             oggConNavigatore[i].aggiorna();
         }
 
+        Navigatore n1 = new Automobile("Fiat", "Panda", "AB123CD", 3);
+        //Navigatore n2 = new Moto("Honda", "Hornet", "CD456EF", true);
+
+
     }
 }
